@@ -53,8 +53,7 @@ if __name__ == "__main__" :
     kk = 0
     data = []
 
-    conn = pymssql.connect(server='restore-db-real-everyday.coinone.me', user='CSAdmin', password='Adminb!tCS49', database='CoinoneDB')
-    # conn = pymssql.connect(server='krqa-db.coinone.me', user='CSAdmin', password='Adminb!tCS49', database='RT_CoinoneDB')  
+    conn = pymssql.connect(server='DB정보', user='정보', password='비번', database='디비명')
     cursor = conn.cursor()  
 
     df = pd.read_csv(rf)
